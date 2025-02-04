@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML</title>
+</head>
+<body>
+    <header>
+        <h1>...Çikolatalı Kek...</h1>
+    <p><em>Çikolatalı kek, çikolata kullanarak yapılabilecek en iyi ürünlerden bir tanesidir.</em></p>
+    <p><strong>Tarif:</strong>Yemek.com</p>
+    </header>
+<article>
+    <p><strong>Kaç kişilik:</strong>4 | <strong>Hazırlama süresi:</strong>30dk 
+    | <strong>Pişirme süresi:</strong>45dk</p>
+   <h2><u>Cikolatalı Kek Malzemeleri</u></h2>
+   <ul>
+    <li>3 adet yumurta</li>
+    <li>1 su bardağı şeker</li>
+    <li>1 çay bardağı yağ</li>
+    <li>2 su bardağı un </li>
+    <li>4 yemek kaşığı kakao</li>
+    <li>1 paket kabartma tozu</li>
+   </ul>
+   <h2><u>Çikolatalı Kek Tarifi Nasıl Yapılır?</u></h2>
+   <ul>
+    <li>Yumurta ve şeker çırp sonra sıvı malzemeleri ekle</li>
+    <li>Sonra katı malzeme ekle</li>
+    <li>180 derece fırına koy</li>
+    <li>45 dk pişir</li>
+   </ul>
+</article>
+<footer>
+    <p><strong>Afiyet olsun</strong></p>
+</footer>
+    
+</body>
+</html>
