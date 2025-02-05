@@ -1,0 +1,8 @@
+.center {
+    text-align: center;
+}
+.text {
+    display: inline-block;
+    margin: 0.10px;
+    text-decoration: underline;
+}
