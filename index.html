@@ -1,68 +1,31 @@
 <!DOCTYPE html>
-<html lang="tr">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Google</title>
+    <link rel="stylesheet" href="css/deneme.css">
 </head>
 <body>
-    <center>
-        <img src="https://web.archive.org/web/19990504112211im_/http://www.google.com/google.jpg" alt="Google logo">
-        <div style="background-color: rgb(199, 199, 199);">
-            <p>Search the web using Google!</p>
-            <input type="text" size="60">
-            <table border="1">
-                <tr>
-                    <td>Google Search</td>
-                    <td>I'm feeling Lucky</td>
-                </tr>
-            </table>
+    <header class="header">
+        <div class="header-left">
+            <a href="#">About</a>
+            <a href="#">Store</a>
         </div>
-        <br>
-        <div style="display: flex; justify-content: center;">
-            <table border="1" style="margin-right: 10px; background-color: rgb(139, 250, 213); font-size: 10px;">
-                <tr>
-                    <td>Special Search</td>
-                </tr>
-                <tr>
-                    <td><a href="https://www.stanford.edu/search/">Stanford search</a></td>
-                </tr>
-                <tr>
-                    <td>Linux search</td>
-                </tr>
-            </table>
-            <table border="1" style="margin-right: 10px; background-color: rgb(139, 240, 200); font-size: 10px;">
-                <tr>
-                    <td><a href="https://support.google.com/">Google Help</a></td>
-                </tr>
-                <tr>
-                    <td><a href="https://about.google/">Google About</a></td>
-                </tr>
-                <tr>
-                    <td><a href="https://about.google/intl/ALL_tr/">Company info</a></td>
-                </tr>
-                <tr>
-                    <td><a href="https://about.google/brand-resource-center/logos-list/">Google Logos</a></td>
-                </tr>
-            </table>
-            <table border="1" style="background-color: rgb(139, 230, 190); font-size: 10px;">
-                <tr>
-                    <td>Get Google!</td>
-                </tr>
-                <tr>
-                    <td>Updates monthly</td>
-                </tr>
-                <tr>
-                    <td><input type="text"></td>
-                </tr>
-                <tr>
-                    <td>
-                        <input type="submit" value="Subscribe">
-                        <a href="https://photos.google.com/archive?pli=1">Archive</a>
-                    </td>
-                </tr>
-            </table>
+        <div class="header-right">
+            <a href="#">Gmail</a>
+            <a href="#">Sign In</a>
         </div>
-    </center>
+    </header>
+    <div class="google-container">
+        <img src="https://github.com/Kodluyoruz/taskforce/blob/main/css/odev2/google_homepage/assets/logo.png?raw=true" alt="Google Logo" class="google-logo">
+        <div class="search-container">
+            <input type="text" placeholder="Search Google or type a URL" class="search-input">
+            <div class="button-container">
+                <button class="search-button">Google Search</button>
+                <button class="lucky-button">I'm Feeling Lucky</button>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
